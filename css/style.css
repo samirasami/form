@@ -1,0 +1,467 @@
+/*=======================================
+common css 
+=======================================*/
+* {
+      margin: 0px;
+      padding: 0px;
+}
+
+html {
+      font-size: 62.5%;
+      font-family: sans-serif;
+}
+
+body {
+      margin: 0px;
+      padding: 0px;
+      scroll-behavior: smooth;
+      font-size: 1.6rem;
+      position: relative;
+}
+
+ul {
+      margin: 0px;
+      padding: 0px;
+}
+
+li {
+      list-style: none;
+}
+
+a,
+p,
+span {
+      font-size: 1.6rem;
+      color: #878787;
+}
+
+h1 {
+      font-size: 4.5rem;
+}
+
+h3 {
+      font-size: 4rem;
+}
+
+h4 {
+      font-size: 2.4rem;
+}
+
+a {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+button:focus {
+      outline: none;
+}
+
+button {
+      border: none;
+}
+
+.fc:before,
+.fc:after {
+      display: table;
+      content: "";
+      clear: both;
+}
+
+.sec-mr {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      background: #E2F3FE;
+}
+
+textarea,
+input {
+      height: 4rem;
+      width: 100%;
+      border-radius: .8rem;
+      border: 1px solid black;
+      padding: 0rem 1.6rem;
+}
+
+textarea:focus,
+input:focus {
+      box-shadow: 1px 1px 4px 4px #C4E3F9;
+      border: 1px solid #66AFE9;
+      outline: 0px;
+      border-radius: .8rem;
+}
+
+.our-form-container {
+      position: relative;
+}
+
+/* ==================section1=============== */
+.section1 {
+      display: flex;
+      margin-top: 2rem;
+}
+
+.section1 p:first-child {
+      margin-right: 2rem;
+      background: #E2F3FE;
+      border-radius: .8rem .8rem 0rem 0rem;
+}
+
+.section1 p:last-child {
+      background: #FFFFC4;
+      border-radius: .8rem .8rem 0rem 0rem;
+
+}
+
+.section1 p {
+      font-size: 1.8rem;
+      padding: 1rem 2rem;
+      border-radius: .8rem;
+}
+
+.section1 p span {
+      font-weight: bold;
+}
+
+/* ==================section2=============== */
+.section2 {
+      margin-top: -10px;
+}
+
+.sec-t {
+      display: flex;
+}
+
+.sec-t i {
+      color: #FFCC00;
+      line-height: 2.5rem;
+}
+
+.sec-t span {
+      font-weight: bold;
+      margin-left: 1rem;
+      color: black;
+
+}
+
+.section2 textarea {
+      height: 13rem;
+      padding-left: 2rem;
+      padding-right: 47rem;
+      letter-spacing: -1px;
+}
+
+.section2 .col-md-4 p {
+      border: 1px solid black;
+      text-align: center;
+      margin-left: 10rem;
+      border-radius: .8rem;
+      height: 9rem;
+      background: #F4FAD8;
+      color: gray;
+}
+
+/* ==================section3=============== */
+.section3 {
+      position: relative;
+}
+
+.section3:after {
+      position: absolute;
+      content: '';
+      bottom: 0px;
+      left: 50%;
+      height: 3px;
+      width: 93%;
+      background: #E0E0E0;
+      transform: translateX(-50%);
+}
+
+.section3 .col-md-4 .input2 .sec-t span {
+      margin-left: 0px;
+
+}
+
+textarea::-webkit-input-placeholder {
+      color: #999999;
+}
+
+textarea:-moz-placeholder {
+      /* Firefox 18- */
+      color: #999999;
+}
+
+textarea::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #999999;
+}
+
+textarea:-ms-input-placeholder {
+      color: #999999;
+}
+
+.section3 input {
+      height: 3.5rem;
+}
+
+.section3 .input1 {
+      margin-bottom: 1.5rem;
+}
+
+.section3 .input2 input {
+      position: relative;
+      appearance: none;
+}
+
+.section3 .input2 input:before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: 0px;
+      right: 0px;
+      height: 60%;
+      background: #fff;
+      pointer-events: none;
+}
+
+.section3 .col-md-4 {
+      padding-left: 12rem;
+}
+
+.section3 .col-md-4 input {
+      width: 100%;
+}
+
+/* ==================section4=============== */
+.section4 .sec-t span {
+      font-size: 1.5rem;
+}
+
+.section4 p {
+      font-size: 1.5rem;
+      color: black;
+      font-weight: bold;
+}
+
+textarea[name="comment"] {
+      width: 100%;
+      height: 6.5rem;
+}
+
+.sec4-top1 input {
+      height: 3.5rem;
+      padding: 0rem 1rem;
+}
+
+.sec4-top2 button,
+.section4 button,
+.section5 button {
+      border: 1px solid #E0E0E0;
+      height: 3.5rem;
+      width: 85%;
+      background: #ffffc4;
+      box-shadow: 2px 2px 2px 2px #898484;
+      padding: 0rem 1rem;
+      border-radius: .8rem;
+}
+
+.sec4-top2 button:hover,
+.section4 button:hover,
+.section5 button:hover {
+      border: 1px solid #ffc107;
+      background: #FFFF88;
+      box-shadow: 2px 2px 2px 2px #898484;
+
+}
+
+.sec4-top2 i {
+      color: #D9534F;
+      font-size: 2rem;
+      margin-left: 1rem;
+}
+
+.section4 button.big-btn {
+      width: 100%;
+      margin-top: 1.6rem;
+}
+
+.big-nn {
+      margin-top: 2rem;
+}
+
+/* ==================sub-total=============== */
+.sub-total-in p {
+      color: black;
+      font-weight: bold;
+}
+
+.total-style {
+      margin-top: 3rem;
+      font-weight: bold;
+      font-size: 2.5rem;
+}
+
+.total-style span {
+      color: #1E90FF;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-left: 1rem;
+}
+
+.total-style p {
+      color: black;
+      font-weight: 600;
+      font-size: 2.5rem;
+      display: inline-block;
+}
+
+.total-style sup {
+      color: #1E90FF;
+      font-weight: 100;
+      font-size: 1.5rem;
+}
+
+.sub-total-in-right {
+      text-align: right;
+      padding-right: 1.6rem;
+}
+
+.bdt-container {
+      display: inline-block;
+      border-bottom: 4px dotted #1E90FF;
+}
+
+.sig-btn {
+      text-align: right;
+}
+
+.section5 button {
+      height: 11rem;
+      width: 60%;
+      margin-top: 3rem;
+}
+
+textarea[name="comment2"] {
+      width: 100%;
+      height: 13.5rem;
+}
+
+/* ==================sig form onclick=============== */
+.sig-form-onclick {
+      bottom: 0px;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, .9);
+      position: absolute;
+      align-items: center;
+      display: none;
+      top: 0px;
+      justify-content: center;
+      z-index: 99999999999999999999999999999999999
+}
+
+.sig-form-onclick-content {
+      background: #fff;
+      height: 200px;
+      width: 350px;
+      position: relative;
+}
+
+.sig-form-onclick-content input[type="text"] {
+      width: 80%;
+      border: none;
+      border-radius: 0px;
+      border-bottom: 1px solid black;
+      margin: 2rem 0rem 2rem 10%;
+}
+
+.sig-form-onclick-content input[type="submit"] {
+      width: 20%;
+      margin-left: 40%;
+}
+
+.sig-form-onclick-content input[type="text"]:focus {
+      border: none;
+      border-radius: 0px;
+      border-bottom: 1px solid black;
+      box-shadow: none;
+}
+
+/* ==================tax-form onclick=============== */
+.tax-form {
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, .9);
+      position: absolute;
+      top: 0px;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 999999999999999999999999;
+}
+
+.tax-form-content {
+      background: #fff;
+      height: 350px;
+      width: 500px;
+      position: relative;
+
+}
+
+.top-bg {
+      background: #1E90FF;
+      padding: 18px 0px;
+      text-align: center;
+      font-size: 2rem;
+}
+
+.tax-form-content input {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 3rem;
+      height: 3rem;
+}
+
+.tax-form-content input:focus {
+      box-shadow: none;
+      border: 1px solid #66AFE9;
+      outline: 0px;
+      outline: 2px solid blue;
+}
+
+.tax-form-content h6 {
+      font-size: 1.5rem;
+      position: absolute;
+      right: 10px;
+      bottom: 6px;
+      padding: 4px 19px;
+      background: #1E90FF;
+      display: inline-block;
+}
+
+.tax-form-content h6:hover {
+      background: #1E90FF;
+      box-shadow: 0px 0px 4px 1px;
+}
+
+.form-close {
+      top: 0px;
+      font-size: 4.5rem;
+      font-weight: 700;
+      color: #000;
+      transform: rotate(45deg);
+      position: absolute;
+      right: 1rem;
+      cursor: pointer;
+}
+
+.form-close:hover {
+      color: gray;
+
+}

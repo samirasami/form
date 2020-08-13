@@ -1,0 +1,51 @@
+@media screen and (max-width: 2000px) {
+      button.big-nn {
+            margin-left: 8rem;
+      }
+}
+
+@media screen and (max-width: 992px) {
+      .section2 .col-md-4 p {
+            font-size: 1.3rem;
+      }
+
+      .section2 textarea {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            letter-spacing: auto;
+      }
+
+      .sec4-top2 button,
+      .section4 button,
+      .section5 button {
+            margin-left: 5rem;
+      }
+
+      .total-style {
+            font-size: 2rem;
+      }
+
+      .total-style span {
+            font-size: 2rem;
+      }
+}
+
+@media screen and (max-width:768px) {
+      .section5 button {
+            height: 7rem;
+            width: 40%;
+      }
+
+      .section2 .col-md-4 p {
+            margin-left: 0rem;
+            margin-top: 2rem;
+      }
+
+}
+
+
+@media screen and (max-width: 576px) {
+      .section1 p {
+            font-size: 1.4rem;
+      }
+}
